@@ -1,0 +1,70 @@
+@font-face {
+  font-family: GTWalsheimProMedium;
+  src: url(GTWalsheimPro-Medium.ttf);
+}
+@font-face {
+  font-family: GTWalsheimProLite;
+  src: url(GTWalsheimPro-Light.ttf);
+}
+@font-face {
+  font-family: GTWalsheimProThin;
+  src: url(GTWalsheimPro-Thin.ttf);
+}
+@font-face {
+  font-family: GTWalsheimProBold;
+  src: url(GTWalsheimPro-Bold.ttf);
+}
+@font-face {
+  font-family: GTWalsheimProUltralight;
+  src: url(GTWalsheimPro-UltraLight.ttf);
+}
+html {
+  scroll-behavior: smooth !important;
+}
+* {
+  font-family: GTWalsheimProMedium, sans-serif;
+}
+.scroll-button {
+  border-bottom: 1px solid #689af8;
+  transition: all 0.5s;
+}
+.scroll-button:hover {
+  background: rgba(11, 39, 90, 0.24);
+}
+.Bold {
+  font-family: GTWalsheimProBold, sans-serif;
+}
+.Medium {
+  font-family: GTWalsheimProMedium, sans-serif;
+}
+.Lite {
+  font-family: GTWalsheimProLite, sans-serif;
+}
+.Thin {
+  font-family: GTWalsheimProThin, sans-serif;
+}
+.Ultralite {
+  font-family: GTWalsheimProUltralite, sans-serif;
+}
+.about_me-area {
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.66);
+  background-image: linear-gradient(
+    180deg,
+    #000 1%,
+    rgba(0, 0, 0, 0.9) 22%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.93) 78%,
+    #000
+  );
+}
+.process{
+  background-image: linear-gradient(
+    180deg,
+    #000 1%,
+    rgba(0, 0, 0, 0.9) 22%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.93) 78%,
+    #000
+  );
+}
